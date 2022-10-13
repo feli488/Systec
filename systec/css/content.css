@@ -1,0 +1,92 @@
+#text {
+    position: absolute;
+    top: 100px;
+}
+h1 {
+    font-family: system-ui;
+    color: #1a2fee;
+}
+#pr1 {
+    text-align: center;
+}
+#pr2 {
+    position: relative;
+    text-align: right;
+    top: -350px;
+}
+h3 {
+    font-family: arial;
+    color: rgb(26, 47, 238);
+
+}
+#intro {
+    font-family: arial;
+}
+#saber-mais {
+    background-color: rgb(26, 47, 238);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    border: 1px solid white;
+    text-align: center;
+    transition: 1s;
+    transition-delay: 1ms;
+    
+}
+#link-servicos {
+    color: rgb(26, 47, 238);;
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    border: 1px solid rgb(26, 47, 238.5);
+    text-align: center;
+    transition: 1s;
+    transition-delay: 1ms;
+}
+#link-servicos:hover {
+    background-color: rgb(26, 47, 238);
+    color: white;
+    box-shadow: 0px 8px 16px rgba(108, 108, 235, 0.295);
+    transform: translate(5deg);
+}
+#saber-mais:hover {
+    background-image: linear-gradient(rgb(26, 47, 238) rgba(10, 10, 150, 0.623));
+    background-color: white;
+    color: rgb(26, 47, 238);
+    border: 1px solid rgb(26, 47, 238);
+    box-shadow: 0px 8px 16px rgba(108, 108, 235, 0.295);
+    transform: translate(3deg);
+}
+#oher-content {
+    position: absolute; 
+    top: 60px;
+}
+#intro2 {
+    justify-content: end;
+    position: relative;
+    text-align: right;
+    font-family: arial;
+    top: -340px;
+}
+#second-title {
+    position: relative;
+    justify-content: end;
+    text-align: end;
+    top: -300px;
+}
+#second-logo {
+    position: absolute;
+    justify-content: right;
+    margin-top: -270px;
+}
+@media (max-width: 890px) {
+    #content h1 {
+        text-align: center;
+        position: relative;
+    }
+}
+.buttons {
+    width: 200px;
+    border-radius: 2px;
+}

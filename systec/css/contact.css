@@ -1,0 +1,45 @@
+#contacts {
+    padding: 0%;
+    background-image: linear-gradient(rgb(69, 199, 250), rgb(9, 113, 148));
+    width: 100%;
+}
+#localizar {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 8px;
+}
+.title-end {
+    font-size: 20pt;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    
+}
+#loc-data {
+    color: white;
+    font-family: arial;
+    margin-top: -10px;
+}
+.name-rede {
+    font-family: arial;
+    color: white;
+}
+
+#redes {
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+.name-rede {
+    margin: 8px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+}
+#tel {
+    font: 1em sans-serif;
+    color: white;
+}
